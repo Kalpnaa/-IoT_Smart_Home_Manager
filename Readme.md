@@ -25,12 +25,12 @@ IoT Smart Home Manager is an AI-powered platform that learns user routines and a
 - Install dependencies:
 pip install google-genai
 
-text
+
 
 ### Setup
 1. Clone this repository:
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <https://github.com/Kalpnaa/-IoT_Smart_Home_Manager.git>
+cd <IoT_Smart_Home_Manager>
 
 
 2. Set your Google Gemini API key as an environment variable:
