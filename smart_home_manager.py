@@ -2,7 +2,13 @@ import os
 from google import genai
 
 # Set your Google Gemini API key as environment variable before running
-os.environ["GEMINI_API_KEY"] = "AIzaSyAo6pvIjhfZJo2zwCQd_1fVwLMnxJ15hmY"
+
+from dotenv import load_dotenv
+
+load_dotenv()  # loads variables from .env into environment variables
+
+gemini_api_key = os.getenv("GEMINI_API_KEY")
+
 
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
